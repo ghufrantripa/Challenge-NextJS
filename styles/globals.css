@@ -4,6 +4,9 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    max-width: 1400px;
+    margin: auto;
+    height: 100%;
 }
 
 a {
@@ -14,3 +17,64 @@ a {
 * {
   box-sizing: border-box;
 }
+
+#__next {
+  height: 100%;
+}
+
+.title-notfound {
+  color: cadetblue;
+  text-align: center;
+}
+
+.title{
+  color: rgb(83, 83, 83);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Sriracha&display=swap');
+
+
+
+
+.box {
+  height: 350px;
+  width: 350px;
+  padding: 20px;
+  border-radius: 5px;
+  background: #ffffff;
+  position: relative;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  h1 {
+    font-family: 'Sriracha', arial, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(83, 83, 83);
+  }
+  .description{
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  .social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+  }
+    .as {
+      text-align: center;
+      border: solid 2px cadetblue;
+      width: 75px;
+      padding: 5px 0;
+      border-radius: 5px;
+    }
+    
+    .as:hover {
+      background: cadetblue;
+      color: white;
+      cursor: pointer;
+    }

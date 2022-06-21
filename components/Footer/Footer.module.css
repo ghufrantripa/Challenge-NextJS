@@ -1,0 +1,12 @@
+.title {
+    text-align: center;
+    color: aliceblue;
+    display: block;
+    margin-top: 40px;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: cadetblue;
+}
